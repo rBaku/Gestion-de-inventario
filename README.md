@@ -1,4 +1,7 @@
 # Gestión de Inventario
+autor: Rodolfo Osorio V.
+rol: 201973014-2
+Para probar el programa se debe usar el comando python -m app.main en la terminal. 
 ---
 
 ## Tecnologías Utilizadas
