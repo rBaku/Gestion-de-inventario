@@ -23,6 +23,8 @@ def menu():
                 nombre = input("Nombre: ")
                 descripcion = input("Descripción: ")
                 cantidad = int(input("Cantidad: "))
+                if cantidad < 0:
+                    raise ValueError("La cantidad no puede ser negativa.")
                 precio = float(input("Precio: "))
                 categoria = input("Categoría: ")
                 producto = Producto(nombre, descripcion, cantidad, precio, categoria)
